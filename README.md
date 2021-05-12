@@ -12,3 +12,11 @@ git remote add origin git@github.com:novafun/django4fun.git
 git push -u origin main
 ```
 
+### Issues
+
+==PyCharm== install Django package
+
+```
+setting->Project->project interpreter
+```
+
