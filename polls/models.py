@@ -21,7 +21,8 @@ class Question(models.Model):
         return self.question_text
 
     def was_published_recently(self):
-        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+        now = timezone.now()
+        return now >= self.pub_date >= now - datetime.timedelta(days=1)
 
 
 # Each model has a number of class variables, each of which represents a database field in the model.
