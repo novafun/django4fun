@@ -28,7 +28,9 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# To include the app in our project, we need to add a reference to its configuration class in the INSTALLED_APPS setting
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig', # The PollsConfig class is in the polls/apps.py file
     'django.contrib.admin',  # The admin site
     'django.contrib.auth',  # An authentication system
     'django.contrib.contenttypes',  # A framework for content types
@@ -100,7 +102,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC-4'
+TIME_ZONE = 'America/Halifax'
 
 USE_I18N = True
 
