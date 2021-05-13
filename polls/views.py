@@ -17,7 +17,8 @@ def index(request):
     context = {
         'latest_question_list': latest_question_list,
     }
-    return HttpResponse(template.render(context, request))
+    # return HttpResponse(template.render(context, request))
+    return render(request, 'polls/index.html', context)
 
 
 def detail(request, question_id):
