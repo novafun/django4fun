@@ -1,6 +1,7 @@
 from django.urls import path
 from . import views
 
+app_name = 'polls'
 urlpatterns = [
     # The path() function is passed four arguments, two required: route and view, and two optional: kwargs, and name.
     # ex: /polls/
