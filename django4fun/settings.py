@@ -30,7 +30,7 @@ ALLOWED_HOSTS = []
 
 # To include the app in our project, we need to add a reference to its configuration class in the INSTALLED_APPS setting
 INSTALLED_APPS = [
-    'polls.apps.PollsConfig', # The PollsConfig class is in the polls/apps.py file
+    'polls.apps.PollsConfig',  # The PollsConfig class is in the polls/apps.py file
     'django.contrib.admin',  # The admin site
     'django.contrib.auth',  # An authentication system
     'django.contrib.contenttypes',  # A framework for content types
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'django4fun.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
