@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Question
+from .models import Choice, Question
 
 
 # Register your models here.
@@ -12,3 +12,5 @@ class QuestionAdmin(admin.ModelAdmin):
 
 # create a model admin class, then pass it as the second argument to admin.site.register()
 admin.site.register(Question, QuestionAdmin)  # Make the poll app modifiable in the admin¶
+
+admin.site.register(Choice)
