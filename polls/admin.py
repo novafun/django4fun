@@ -4,7 +4,10 @@ from .models import Question
 
 # Register your models here.
 class QuestionAdmin(admin.ModelAdmin):
-    fields = ['pub_date', 'question_text']  # determines the representation order
+    fieldsets = [
+        (None, {'fields': ['question_text']}),
+        ('Date information', {'fields': ['pub_date']}),  # Date information title
+    ]
 
 
 # create a model admin class, then pass it as the second argument to admin.site.register()
