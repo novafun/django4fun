@@ -20,3 +20,12 @@ git push -u origin main
 setting->Project->project interpreter
 ```
 
+### Django Learning materials
+
+- [Django Riffs](https://djangoriffs.com/episodes) 
+- Two Scoops of Django 3.x
+- Django for beginners
+- Django for APIs
+- Django for professionals
+- [Reddit: recommendation to learn Django](https://www.reddit.com/r/django/comments/m5qtdf/my_recommendation_to_learn_django/)
+
