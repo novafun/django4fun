@@ -29,3 +29,15 @@ setting->Project->project interpreter
 - Django for professionals
 - [Reddit: recommendation to learn Django](https://www.reddit.com/r/django/comments/m5qtdf/my_recommendation_to_learn_django/)
 
+### Python Resources
+
+- Books
+  - Python Crash Course
+  - Fluent Python
+  - Effective Python
+  - Python Tricks
+
+### Source code
+
+- [Django](https://github.com/django/django)
+
